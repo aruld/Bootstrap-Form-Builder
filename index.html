@@ -1,89 +1,82 @@
-<!--<!DOCTYPE html>-->
-<html lang="en">
+<!doctype html>
+<html>
   <head>
     <meta charset="utf-8">
-    <title>Bootstrap Form Builder</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Bootstrap-form-builder by aruld</title>
 
-    <link href="assets/css/lib/bootstrap.min.css" rel="stylesheet">
-    <!--<link href="assets/css/lib/bootstrap-responsive.min.css" rel="stylesheet">-->
-    <link href="assets/css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
-    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
   </head>
-
   <body>
-    <a href="https://github.com/minikomi/Bootstrap-Form-Builder/"><img style="z-index: 100000; position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">Bootstrap Form Builder</a>
-        </div>
-      </div>
-    </nav>
-    <div class="container">
-      <div class="row clearfix">
-        <!-- Components -->
-        <div class="col-md-6">
-          <h2>Drag & Drop components</h2>
-          <hr>
-          <div class="tabbable">
-            <ul class="nav nav-tabs" id="formtabs">
-              <!-- Tab nav -->
-            </ul>
-            <form class="form-horizontal" id="components" role="form">
-              <fieldset>
-                <div class="tab-content">
-                  <!-- Tabs of snippets go here -->
-                </div>
-              </fieldset>
-            </form>
-          </div>
-        </div>
-        <!-- / Components -->
+    <div class="wrapper">
+      <header>
+        <h1>Bootstrap-form-builder</h1>
+        <p>Web app for drag drop building bootstrap forms.</p>
 
-        <!-- Building Form. -->
-        <div class="col-md-6">
-          <div class="clearfix">
-            <h2>Your Form</h2>
-            <hr>
-            <div id="build">
-              <form id="target" class="form-horizontal">
-              </form>
-            </div>
-          </div>
-        </div>
-        <!-- / Building Form. -->
-      </div>
+        <p class="view"><a href="https://github.com/aruld/Bootstrap-Form-Builder">View the Project on GitHub <small>aruld/Bootstrap-Form-Builder</small></a></p>
 
-      <div class="row clearfix">
-        <div class="col-md-12">
-          <hr>
-          By Adam Moore (<a href="http://twitter.com/minikomi" >@minikomi</a>).<br/>
-          Source on (<a href="https://github.com/minikomi/Bootstrap-Form-Builder" >Github</a>).
-        </div>
-      </div>
 
-    </div> <!-- /container -->
+        <ul>
+          <li><a href="https://github.com/aruld/Bootstrap-Form-Builder/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/aruld/Bootstrap-Form-Builder/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/aruld/Bootstrap-Form-Builder">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="bootstrap-form-builder" class="anchor" href="#bootstrap-form-builder"><span class="octicon octicon-link"></span></a>Bootstrap Form Builder</h1>
 
-    <script data-main="assets/js/main-built.js" src="assets/js/lib/require.js" ></script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<h2>
+<a name="whats-this" class="anchor" href="#whats-this"><span class="octicon octicon-link"></span></a>What's this?</h2>
+
+<p>A Drag-and-drop form builder for <a href="http://getbootstrap.com/">twitter bootstrap</a>.</p>
+
+<p>Currently using <code>v. 3.0.2</code> <img class="emoji" title=":dolphin:" alt=":dolphin:" src="https://github.global.ssl.fastly.net/images/icons/emoji/dolphin.png" height="20" width="20" align="absmiddle"></p>
+
+<h2>
+<a name="where-can-i-see-it-in-action" class="anchor" href="#where-can-i-see-it-in-action"><span class="octicon octicon-link"></span></a>Where can I see it in action?</h2>
+
+<p>It's hosted on github pages <a href="http://aruld.github.io/Bootstrap-Form-Builder/">here</a>.</p>
+
+<h3>
+<a name="notes" class="anchor" href="#notes"><span class="octicon octicon-link"></span></a>Notes</h3>
+
+<ul>
+<li><p>For development &amp; debugging change the data-main for the require script tag in <code>index.html</code> 
+to point at <code>assets/js/main.js</code>. (Look just before the closing <code>&lt;body&gt;</code> tag!)</p></li>
+<li><p>Once done, change it back to  build for production using the <code>build.js</code> script in the <code>assets/js/lib</code>
+folder and <a href="https://github.com/jrburke/r.js/">r.js</a>. Then revert to <code>assets/js/main-built.js</code></p></li>
+<li><p>The full command is <code>r.js -o assets/js/lib/build.js</code> which should be run from the base directory.</p></li>
+</ul><h3>
+<a name="adding-new-form-elements" class="anchor" href="#adding-new-form-elements"><span class="octicon octicon-link"></span></a>Adding new form elements</h3>
+
+<ul>
+<li>In the <a href="https://github.com/minikomi/Bootstrap-Form-Builder/tree/gh-pages/assets/js/data/">js/data/ folder</a> are yaml files, each of which corresponds to a tab in the form builder.</li>
+<li>If you just want to add a new element you need to:
+
+<ul>
+<li>describe it in one of these files</li>
+<li>parse the yaml to json using parse.rb in the same folder</li>
+<li>create a corresponding template in the <a href="https://github.com/minikomi/Bootstrap-Form-Builder/tree/gh-pages/assets/js/templates/snippet">templates/snippet directory</a>
+</li>
+<li>add the template to <a href="https://github.com/minikomi/Bootstrap-Form-Builder/blob/gh-pages/assets/js/templates/snippet/snippet-templates.js">snippet-templates.js</a>
+</li>
+</ul>
+</li>
+<li>If you want to add a new tab, you'll also need to adjust the <a href="https://github.com/minikomi/Bootstrap-Form-Builder/blob/gh-pages/assets/js/app.js">app.js file</a> to make sure the tab is loaded.</li>
+</ul><p>Don't forget to switch to main.js rather than main-built.js, or the changes you make before compiling with require.js won't show up!</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/aruld">aruld</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
     
-      ga('create', 'UA-13083321-13', 'minikomi.github.io');
-      ga('send', 'pageview');
-
-    </script>
   </body>
 </html>
