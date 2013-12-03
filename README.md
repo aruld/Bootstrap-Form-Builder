@@ -2,9 +2,9 @@
 
 ##What's this?
 
-A Drag-and-drop form builder for [twitter bootstrap](http://twitter.github.com/bootstrap/). 
+A Drag-and-drop form builder for [twitter bootstrap](http://getbootstrap.com/).
 
-Currently using `v. 2.3.1` :dolphin:
+Currently using `v. 3.0.2` :dolphin:
 
 ##Where can I see it in action?
 

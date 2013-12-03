@@ -14,38 +14,46 @@
           "Option two"
         ]
       },
+      "values":{
+        "label": "Values",
+        "type": "textarea-split",
+        "value": [
+            "1",
+            "2"
+        ]
+      },
       "inputsize": {
         "type": "select",
         "label": "Input Size",
         "value": [
           {
             "label": "Mini",
-            "value": "input-mini",
+            "value": "col-md-1",
             "selected": false
           },
           {
             "label": "Small",
-            "value": "input-small",
+            "value": "col-md-2",
             "selected": false
           },
           {
             "label": "Medium",
-            "value": "input-medium",
-            "selected": false
+            "value": "col-md-4",
+            "selected": true
           },
           {
             "label": "Large",
-            "value": "input-large",
+            "value": "col-md-5",
             "selected": false
           },
           {
             "label": "Xlarge",
-            "value": "input-xlarge",
-            "selected": true
+            "value": "col-md-6",
+            "selected": false
           },
           {
             "label": "Xxlarge",
-            "value": "input-xxlarge",
+            "value": "col-md-8",
             "selected": false
           }
         ]
@@ -73,38 +81,46 @@
           "Option two"
         ]
       },
+      "values":{
+        "label": "Values",
+        "type": "textarea-split",
+        "value": [
+            "1",
+            "2"
+        ]
+      },
       "inputsize": {
         "type": "select",
         "label": "Input Size",
         "value": [
           {
             "label": "Mini",
-            "value": "input-mini",
+            "value": "col-md-1",
             "selected": false
           },
           {
             "label": "Small",
-            "value": "input-small",
+            "value": "col-md-2",
             "selected": false
           },
           {
             "label": "Medium",
-            "value": "input-medium",
-            "selected": false
+            "value": "col-md-4",
+            "selected": true
           },
           {
             "label": "Large",
-            "value": "input-large",
+            "value": "col-md-5",
             "selected": false
           },
           {
             "label": "Xlarge",
-            "value": "input-xlarge",
-            "selected": true
+            "value": "col-md-6",
+            "selected": false
           },
           {
             "label": "Xxlarge",
-            "value": "input-xxlarge",
+            "value": "col-md-8",
             "selected": false
           }
         ]
